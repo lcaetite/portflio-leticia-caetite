@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 199, 184);
+}
+#header{
+    text-align: center;
+}
+#logo{
+    padding: 30px;
+    color: rgb(116, 49, 1);
+}
+#menu{
+    padding: 10px;
+}
+#header a:link, #header a:visited{
+    color: rgb(116, 49, 1);
+}
+#header a:hover{
+    text-decoration:dotted;
+    background-color: white;
+}
+#sobre{
+    text-align: center;
+}
+#sobremim{
+    text-align: center;
+    padding: 30px;
+    color: rgb(116, 49, 1);}
+    #sobre a:link, #sobre a:visited{
+        color: rgb(116, 49, 1);
+    }
+    #sobre a:hover{
+        text-decoration:dotted;
+        background-color: white;}
+#formação a:link, #formação a:visited{
+    color:rgb(116, 49, 1);
+}
+#formação a:hover{
+    text-decoration:dotted;
+    background-color: white;
+}
+#formação{
+    padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        gap: 20px;
+}
+#trabalhos a:link, #trabalhos a:visited{
+    color: rgb(116, 49, 1);
+}
+#trabalhos a:hover{
+    text-decoration:dotted;
+    background-color: white;}
+
+    #trabalhos{
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+        gap: 20px;
+    }
+#contato{
+    width: 400px;
+    margin: 50px auto; /* centraliza horizontalmente */
+    padding: 20px;
+    text-align: left;
+}
+#contato a:link, #contato a:visited{
+    color: rgb(116, 49, 1);
+}
+#contato a:hover{
+    text-decoration:dotted;
+    background-color: white;}
+#inicio{
+    text-align: center;
+}
+        
